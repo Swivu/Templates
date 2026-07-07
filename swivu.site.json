@@ -4,7 +4,7 @@
   "serviceId": "site",
   "serviceName": "Swivu Site",
   "version": 1,
-  "logoUrl": "https://www.swivu.com/swivu_in_a_laptop.jpg",
+  "logoUrl": "https://documents.swivu.com/favicon.png",
   "description": "Connect a custom domain to a published Swivu marketing site. Creates AWS ACM DNS validation and a routing CNAME to Swivu hosting. The subdomain label (e.g. www) is specified via the host parameter in the apply URL.",
   "variableDescription": "cname_target: Swivu custom-domain CDN hostname (e.g. custom.swivu.site); acm_validation_host_0: ACM DNS validation record name (full label from AWS); acm_validation_value_0: ACM DNS validation CNAME target (full value from AWS)",
   "syncPubKeyDomain": "domaintemplate.swivu.com",
